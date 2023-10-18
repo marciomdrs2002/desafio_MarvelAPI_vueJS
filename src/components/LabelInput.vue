@@ -1,0 +1,39 @@
+<template>
+    <div class="mb-3 principal">
+        <label class="mb-2" :for="labelTitle">{{ labelTitle }}</label>
+        <textarea v-if="textArea" rows="4" class="form-control" :id="labelTitle" :value="modelValue"
+            :placeholder="placeholder" @input="$emit('update:modelValue', $event.target.value)"></textarea>
+        <input v-else class="form-control" :id="labelTitle" :type="typeName" :placeholder="placeholder" :value="modelValue"
+            @input="$emit('update:modelValue', $event.target.value)">
+    </div>
+</template>
+  
+<script setup>
+
+const props = defineProps({
+    typeName: String,
+    placeholder: String,
+    labelTitle: String,
+    textArea: Boolean,
+    modelValue: String
+});
+
+const emit = defineEmits(['update:modelValue']);
+</script>
+  
+<style scoped>
+.principal input:focus,
+.principal textarea:focus {
+    border: 1px solid #767676;
+    box-shadow: none;
+}
+
+@media (min-width: 992px) {
+
+    .principal textarea,
+    input {
+        width: 620px;
+    }
+}
+</style>
+  

@@ -5,7 +5,7 @@
         <div class="body">
             <img class="pb-4" src="@/assets/images/marvelgray.svg" alt="icone da marvel cinza">
             <h1 class="d-none d-md-block" style="font-size: 32px !important;">WELCOME TO MARVEL'S DIRECTORY</h1>
-            <h3 class="d-lg-none">WELCOME TO MARVEL'S DIRECTORY</h3>
+            <h3 class="d-lg-none ">WELCOME TO MARVEL'S DIRECTORY</h3>
         </div>
     </div>
 </template>

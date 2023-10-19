@@ -1,11 +1,11 @@
 <template>
-    <div class="main" style="display: flex;
+    <div class="main mt-4 mb-4" style="display: flex;
     align-items: center;
     gap: 0.5em;">
         <router-link to="/"> <ion-icon style="color: #767676;" name="home-outline"></ion-icon> </router-link>
-        <span class="text"> {{ name }} </span>
-        <span v-if="subName"> /</span>
-        <span v-if="subName">{{ subName }}</span>
+        <small class="text"> {{ name }} </small>
+        <small v-if="subName"> /</small>
+        <small v-if="subName">{{ subName }}</small>
     </div>
 </template>
 
@@ -18,14 +18,8 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.main {
-    padding: 1.5em 0;
-}
-
 .main span {
-    font-size: 14px;
-    font-weight: 400;
-    color: #767676;
+    color: #767676 !important;
 }
 
 @media (min-width: 992px) {

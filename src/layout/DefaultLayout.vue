@@ -17,11 +17,11 @@
 
             <div class="menu">
                 <ul class=" d-flex flex-column" style="gap: 2em; padding-left: 1em;">
-                    <MenuButton @click="toggleCollapse" :link="'welcome'" :text="'HOME'" />
-                    <MenuButton @click="toggleCollapse" :link="'contact'" :text="'CHARACTERS'" />
-                    <MenuButton @click="toggleCollapse" :link="'welcome'" :text="'COMICS'" />
-                    <MenuButton @click="toggleCollapse" :link="'welcome'" :text="'EVENTS'" />
-                    <MenuButton @click="toggleCollapse" :link="'contact'" :text="'CONTACT'" />
+                    <MenuButton @click="toggleCollapse" :link="'welcome'" :text="'home'" />
+                    <MenuButton @click="toggleCollapse" :link="'characters'" :text="'characters'" />
+                    <MenuButton @click="toggleCollapse" :link="'welcome'" :text="'comics'" />
+                    <MenuButton @click="toggleCollapse" :link="'welcome'" :text="'events'" />
+                    <MenuButton @click="toggleCollapse" :link="'contact'" :text="'contact'" />
                 </ul>
             </div>
         </div>

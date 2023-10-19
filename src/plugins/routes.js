@@ -6,16 +6,18 @@ const routes = [
     name: "welcome",
     component: () => import("@/views/Welcome.vue"),
   },
-  /*   {
+  {
     path: "/characters",
     name: "characters",
     component: () => import("@/views/Characters.vue"),
   },
+  
   {
-    path: "/charactersDetail",
-    name: "charactersDetail",
-    component: () => import("@/views/CharactersDetail.vue"),
+    path: "/characters/:id",
+    name: "characterDetails",
+    component: () => import("@/views/CharacterDetails.vue"), 
   },
+  /*
   {
     path: "/comics",
     name: "comics",

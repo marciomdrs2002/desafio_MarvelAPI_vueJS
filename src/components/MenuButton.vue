@@ -24,6 +24,7 @@ li {
 }
 
 button {
+    text-transform: uppercase;
     border: none;
     background-color: transparent;
     padding: 0;

@@ -1,9 +1,7 @@
 <template>
-    <div class="main mt-4 mb-4" style="display: flex;
-    align-items: center;
-    gap: 0.5em;">
+    <div class="main mt-4 mb-4 d-flex align-items-center" style="gap: 0.5em;">
         <router-link to="/"> <ion-icon style="color: #767676;" name="home-outline"></ion-icon> </router-link>
-        <small class="text"> {{ name }} </small>
+        <router-link :to="{ name: name }"> <small class="text"> {{ name }} </small> </router-link>
         <small v-if="subName"> /</small>
         <small v-if="subName">{{ subName }}</small>
     </div>

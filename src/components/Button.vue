@@ -25,7 +25,7 @@ const props = defineProps({
 }
 
 @media (min-width: 1200px) {
-    .submit-btn {
+    .active-btn {
         width: 96px;
     }
 

@@ -1,9 +1,9 @@
 <template>
-    <div class="card">
-        <img class="card-img-top rounded" :src="image ? image : '/src/assets/images/card_padrao.svg'">
-        <div class="body pt-3 pb-3">
-            <small class="card-title fw-bold text-uppercase" :class="!comic ? 'text-decoration-underline' : ''">{{ title }}</small>
-            <p v-if="comic" class="card-subtitle mt-1">PAGES: {{ pages }}</p>
+    <div class="card mb-5" style="cursor: pointer;">
+        <img class="card-img-top rounded" :src="image ? image : '/src/assets/images/card_padrao.svg'" :class="{'comic': pages}">
+        <div class="body pt-3">
+            <small class="card-title fw-bold text-uppercase" :class="{'text-decoration-underline' : !pages}">{{ title }}</small>
+            <p v-if="pages" class="card-subtitle mt-1">PAGES: {{ pages }}</p>
         </div>
         
     </div>
@@ -13,12 +13,14 @@
 const props = defineProps({
     image: String,
     title: String,
-    comic: Boolean,
-    pages: String
+    pages: Number
 });
 </script>
 
 <style scoped>
+.comic{
+    min-height: 15em !important;
+}
 .body p{
     font-weight: 400;
     font-size: 14px;
@@ -26,10 +28,11 @@ const props = defineProps({
     color: #000000;
 }
 .card {
-    border: none;
+border: none; /* Desabilitar para melhor visualização */
 }
 
 .card img {
-    height: 183px;
+    min-height: 11.437em;
+    width: 10em !important;
 }
 </style>

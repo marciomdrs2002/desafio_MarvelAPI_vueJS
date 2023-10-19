@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+Desafio realizado com VueJS, VueRouter, Bootstrap, Vite, HTML e CSS
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Desafios:
 
-## Recommended IDE Setup
+1. Componentização com Vue
+2. Consumir API da Marvel
+3. Utilizar responsividade e GRID com BS
+3. Seguir layout conforme FIGMA: [UI STYLE GUIDE](https://www.figma.com/file/b21cB6Ph702fL11DqwoyWP/Teste-Frontend---Bee-Delivery?type=design&node-id=2-2&mode=design&t=3U9mo2tpqc08ckd9-0).
+4. Roteamento com VueRouter
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Instalação:
+1. Faça o clone do repositório
+2. npm install
+3. npm run dev

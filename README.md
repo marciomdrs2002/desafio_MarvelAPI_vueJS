@@ -14,4 +14,4 @@ Instalação:
 3. npm run dev
 
 
-[Vercel LINK](https://desafio-marvel-api-vue-js.vercel.app/).
+[Visualize Online](https://desafio-marvel-api-vue-js.vercel.app/).

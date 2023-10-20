@@ -12,3 +12,6 @@ Instalação:
 1. Faça o clone do repositório
 2. npm install
 3. npm run dev
+
+
+[Visualize Online](https://desafio-marvel-api-vue-js.vercel.app/).

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="header d-flex justify-content-between align-items-center p-2">
-            <img src="@/assets/images/marvel.svg" />
+            <img src="../assets/images/marvel.svg" />
 
             <div class="menu d-none d-lg-block">
                 <ul class="d-flex m-0" style="gap: 2em;">
@@ -39,8 +39,9 @@
   
 
 <script setup>
+import MenuButton from '../components/MenuButton.vue';
 import { ref } from 'vue';
-import MenuButton from '@/components/MenuButton.vue';
+
 
 const menuItems = [
     { link: 'Home', text: 'home' },

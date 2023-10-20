@@ -13,10 +13,12 @@
 </template>
 
 <script setup>
+import NavIcon from '../components/NavIcon.vue'
+import Card from '../components/Card.vue';
+
 import { onMounted, ref } from 'vue';
 import axios from 'axios';
-import NavIcon from '@/components/NavIcon.vue'
-import Card from '@/components/Card.vue';
+
 
 const comics = ref(null);
 

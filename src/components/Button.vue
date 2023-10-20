@@ -11,8 +11,8 @@ const props = defineProps({
 
 <style scoped>
 .active-btn {
-    background-color: #EC1D24 !important;
-    color: #ffffff !important;
+    background-color: #EC1D24 ;
+    color: #ffffff ;
     border: none;
     height: 2.5em;
     border-radius: 4px;

@@ -29,11 +29,11 @@
 </template>
 
 <script setup>
-import NavIcon from '@/components/NavIcon.Vue';
+import NavIcon from '../components/NavIcon.vue';
 import { useRoute } from 'vue-router';
 import { ref, onMounted, } from 'vue'
 import axios from 'axios'
-import Card from '@/components/Card.vue';
+import Card from '../components/Card.vue';
 
 const idCharacter = useRoute().params.id;
 const personagem = ref();

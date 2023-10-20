@@ -13,8 +13,8 @@
 <script setup>
 import { onMounted, ref } from 'vue';
 import axios from 'axios';
-import NavIcon from '@/components/NavIcon.vue'
-import EventCard from '@/components/EventCard.vue'
+import NavIcon from '../components/NavIcon.vue'
+import EventCard from '../components/EventCard.vue'
 
 const events = ref(null);
 

@@ -11,8 +11,8 @@
 </template>
 
 <script setup>
-import NavIcon from '@/components/NavIcon.Vue';
-import Card from '@/components/Card.vue';
+import NavIcon from '../components/NavIcon.vue';
+import Card from '../components/Card.vue';
 import axios from 'axios';
 import { useRouter } from 'vue-router';
 import { onMounted, ref } from 'vue';

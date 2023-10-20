@@ -47,9 +47,9 @@
 </template>
 
 <script setup>
-import NavIcon from '@/components/NavIcon.Vue';
-import LabelInput from '@/components/LabelInput.vue';
-import Button from '@/components/Button.vue'
+import NavIcon from '../components/NavIcon.vue';
+import LabelInput from '../components/LabelInput.vue';
+import Button from '../components/Button.vue'
 
 import axios from 'axios'
 import { reactive, watch, ref } from 'vue'

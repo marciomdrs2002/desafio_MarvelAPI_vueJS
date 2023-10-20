@@ -19,7 +19,7 @@ import EventCard from '../components/EventCard.vue'
 const events = ref(null);
 
 function getEvents() {
-    axios.get('http://gateway.marvel.com/v1/public/events', {
+    axios.get('https://gateway.marvel.com/v1/public/events', {
         params: {
             ts: 45,
             apikey: '70f42db33e1dbbe0c79e2276acc59ba7',

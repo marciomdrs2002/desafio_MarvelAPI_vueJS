@@ -24,7 +24,7 @@ const characters = ref(null);
 async function fetchData() {
   const hash = '927b6946a62a46434906486fd1ac1ed2';
   try {
-    const response = await axios.get('http://gateway.marvel.com/v1/public/characters', {
+    const response = await axios.get('https://gateway.marvel.com/v1/public/characters', {
       params: {
         ts: 12,
         apikey: '70f42db33e1dbbe0c79e2276acc59ba7',

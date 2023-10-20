@@ -41,7 +41,7 @@ const comics = ref();
 
 
 function getCharacter() {
-    axios.get(`http://gateway.marvel.com/v1/public/characters/${idCharacter}`, {
+    axios.get(`https://gateway.marvel.com/v1/public/characters/${idCharacter}`, {
         params: {
             ts: 45,
             apikey: '70f42db33e1dbbe0c79e2276acc59ba7',
@@ -57,7 +57,7 @@ function getCharacter() {
 }
 
 function getComics() {
-    axios.get(`http://gateway.marvel.com/v1/public/characters/${idCharacter}/comics`, {
+    axios.get(`https://gateway.marvel.com/v1/public/characters/${idCharacter}/comics`, {
         params: {
             ts: 45,
             apikey: '70f42db33e1dbbe0c79e2276acc59ba7',
